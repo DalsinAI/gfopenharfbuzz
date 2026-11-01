@@ -1,8 +1,8 @@
 # openamigaharfbuzz
 
 HarfBuzz for AmigaOS 3.x on 68k, built as static link libraries for
-GCC programs. Part of the [OpenAmiga](https://github.com/DalsinAI/openamiga)
-ports, made for [OpenBrowser](https://github.com/DalsinAI/openamigabrowser),
+GCC programs. Part of the [GFOpenAmiga](https://github.com/DalsinAI/openamiga)
+ports, made for [GFOpenBrowser](https://github.com/DalsinAI/openamigabrowser),
 the WebKit browser for AmigaOS 3.2.
 
 **Status:** Working: builds, and the smoke test shapes text on the bench.
@@ -44,7 +44,7 @@ Link with: `-lharfbuzz -lfreetype -lpng -lz -lstdc++ -lpthread -lm`
 
 ## Tested
 
-`tests/hbtest.c`, run on AmigaOS 3.2.3 on AmigaChrome's AC090 emulation (68040 with FPU, 256 MB), Instance-24, 4 October 2026, as `hbtest DH1:OBFonts/LiberationSans-Regular.ttf`:
+`tests/hbtest.c`, run on AmigaOS 3.2.3 on AmiCradle's AC090 emulation (68040 with FPU, 256 MB), Instance-24, 4 October 2026, as `hbtest DH1:OBFonts/LiberationSans-Regular.ttf`:
 
 ```
 HARFBUZZ 14.5.1 glyphs=16
