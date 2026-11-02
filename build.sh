@@ -1,5 +1,5 @@
 #!/bin/sh
-# openamigaharfbuzz: HarfBuzz, built for AmigaOS 3.x (68040 + FPU) with the
+# gfopenharfbuzz: HarfBuzz, built for AmigaOS 3.x (68040 + FPU) with the
 # os32-gcc16 compiler (bebbo's amiga-gcc, GCC 16.2, libnix, libpthread).
 # MIT, Copyright (c) 2026 AmiCradle Team. The library keeps its own licence.
 #
@@ -55,7 +55,7 @@ archive() {
     echo "lib$name.a: $(wc -c < "$OUT/lib/lib$name.a") bytes"
 }
 
-FT=${FREETYPE_INCLUDE:?set FREETYPE_INCLUDE to the include/freetype2 folder of openamigafreetype}
+FT=${FREETYPE_INCLUDE:?set FREETYPE_INCLUDE to the include/freetype2 folder of gfopenfreetype}
 ICU=${ICU_PREFIX:?set ICU_PREFIX to an ICU 78 build for AmigaOS 3}
 unpack harfbuzz harfbuzz-14.5.1.tar.xz 7e2fa4e8c7c98e8d8140671f5772542afaaa6acccfbd746506886b6d85f7f8d6
 cd "$WORK/harfbuzz/harfbuzz-14.5.1"

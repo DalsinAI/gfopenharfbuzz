@@ -1,4 +1,4 @@
-/* openamigaharfbuzz smoke test: shape text with a TrueType font, print glyphs. */
+/* gfopenharfbuzz smoke test: shape text with a TrueType font, print glyphs. */
 #include <stdio.h>
 #include <hb.h>
 #include <hb-ft.h>
