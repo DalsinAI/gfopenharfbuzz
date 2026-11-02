@@ -2,7 +2,7 @@
 
 ## Creator and maintainer
 
-- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created and maintains this AmigaOS port of HarfBuzz (openamigaharfbuzz).
+- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created and maintains this AmigaOS port of HarfBuzz (gfopenharfbuzz).
 
 ## The AmiCradle team
 
@@ -36,7 +36,7 @@ source is not.
 
 ## Used at build time, not included
 
-- **FreeType** (openamigafreetype) for `hb-ft`, and **ICU 78** for libharfbuzz-icu, each under its own licence.
+- **FreeType** (gfopenfreetype) for `hb-ft`, and **ICU 78** for libharfbuzz-icu, each under its own licence.
 - **bebbo's amiga-gcc** (GCC 16.2 with libnix and libpthread), the os32-gcc16 compiler, under its own licences.
 
 Amiga, AmigaOS and other product names are trademarks of their respective
